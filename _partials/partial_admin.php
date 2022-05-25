@@ -176,6 +176,12 @@ $topside = "<!-- Sidebar -->
       <span>Lp. Free Produk</span>
     </a>
   </li>
+  <li class='nav-item'>
+    <a class='nav-link' href='lp_restok.php'>
+      <i class='fas fa-folder-minus'></i>
+      <span>Lp. ReStok Gudang</span>
+    </a>
+  </li>
 
 </ul>";
 

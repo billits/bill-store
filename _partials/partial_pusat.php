@@ -176,6 +176,12 @@ $topside = "<!-- Sidebar -->
       <span>Events</span></a>
     </a>
   </li>
+  <li class='nav-item active'>
+    <a class='nav-link' href='restok.php'>
+      <i class='fas fa-sign-in-alt'></i>
+      <span>ReStok Gudang</span></a>
+    </a>
+  </li>
   <li class='nav-item'>
     <a class='nav-link dropdown-toggle' href='#' id='pagesDropdown' role='button' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>
       <i class='fas fa-fw fa-layer-group'></i>
@@ -215,6 +221,7 @@ $topside = "<!-- Sidebar -->
       <span>Report Control</span>
     </a>
     <div class='dropdown-menu' aria-labelledby='pagesDropdown'>
+      <a class='dropdown-item' href='lp_restok.php'>Lp. ReStok</a>
       <a class='dropdown-item' href='lp_pst.php'>Lp. Pusat</a>
       <a class='dropdown-item' href='lp_off.php'>Lp. BTB Office</a>
       <a class='dropdown-item' href='lp_cabang.php'>Lp. BTB Cabang</a>

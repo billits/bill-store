@@ -1,7 +1,9 @@
 Query Database = 
 DELETE FROM tb_beli;
 DELETE FROM tb_po;
+DELETE FROM tb_restok;
 DELETE FROM tb_beli_event;
+DELETE FROM tb_detail_restok;
 DELETE FROM tb_detail_beli;
 DELETE FROM tb_detail_po;
 DELETE FROM tb_detail_beli_event;
@@ -40,11 +42,3 @@ DELETE FROM ;
 DELETE FROM ;
 DELETE FROM ;
 
-
-DELETE FROM ;
-DELETE FROM ;
-ALTER TABLE log_temp_peserta AUTO_INCREMENT = 1;
-DELETE FROM peserta_rts;
-DELETE FROM temp_peserta;
-DELETE FROM verifikasi_peserta;
-ALTER TABLE verifikasi_peserta AUTO_INCREMENT = 1;

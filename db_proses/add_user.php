@@ -29,7 +29,7 @@
 	if ($valid==0){
 		mysqli_autocommit($kon, false);
 
-		$sqlre= "SELECT max(kode_staff) as maxKode FROM tb_staff";
+		$sqlre= "SELECT max(kode_staff) as maxKode FROM tb_staff WHERE office_staff='$office_pegawai'";
 		$resultre = mysqli_query($kon,$sqlre);	  
 		$rowre = mysqli_fetch_array($resultre,MYSQLI_ASSOC);
 		$countre = mysqli_num_rows($resultre);
